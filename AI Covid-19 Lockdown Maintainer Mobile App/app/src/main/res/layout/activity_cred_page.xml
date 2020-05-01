@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newlogin"
+    tools:context=".CredPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:id="@+id/lay">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35dp"
+            android:text="Developement Team"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="90dp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/newlogin"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#D1E6F1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="160dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/akaash" />
+
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="-160dp"
+                        android:text="Akash Ramjyothi"
+                        android:textColor="#000"
+                        android:textSize="28dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/id1"
+                        android:layout_width="249dp"
+                        android:layout_height="86dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nApp Developer and Backend Developer\n\n"
+                        android:textColor="#121111"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/service1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="92dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nEmail:akash.ramjyothi@gmail.com\n\Phone:+91 8939928002"
+                        android:textColor="#121111"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@+id/lay1"
+                    android:layout_marginTop="50dp"
+                    android:background="#D1E6F1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/suvo2" />
+
+                    <TextView
+                        android:id="@+id/name2"
+                        android:layout_width="242dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="-170dp"
+                        android:text="Suvodeep Sinha"
+                        android:textColor="#121111"
+                        android:textSize="28dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/id2"
+                        android:layout_width="216dp"
+                        android:layout_height="64dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nApp Developer"
+                        android:textColor="#121111"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/service2"
+                        android:layout_width="235dp"
+                        android:layout_height="117dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nEmail:suvodeepsinha1981@gmail.com\n\Phone:+91 8652039657"
+                        android:textColor="#121111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@+id/lay2"
+                    android:layout_marginTop="50dp"
+                    android:background="#D1E6F1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="240dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/abhuday" />
+
+                    <TextView
+                        android:id="@+id/name3"
+                        android:layout_width="226dp"
+                        android:layout_height="49dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="-170dp"
+                        android:text="Abhuday Mishra"
+                        android:textColor="#121111"
+                        android:textSize="28dp"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:id="@+id/id3"
+                        android:layout_width="234dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nWeb Developer"
+                        android:textColor="#121111"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/service3"
+                        android:layout_width="201dp"
+                        android:layout_height="67dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Email:abhuday.mishra@hotmail.com\n\Phone:+91 9818946005"
+                        android:textColor="#121111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:id="@+id/lay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_below="@+id/lay3"
+                    android:layout_marginTop="50dp"
+                    android:background="#D1E6F1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="150dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginTop="20dp"
+                        app:srcCompat="@drawable/siddharth" />
+
+                    <TextView
+                        android:id="@+id/name4"
+                        android:layout_width="209dp"
+                        android:layout_height="53dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="-170dp"
+                        android:text="Siddharth S"
+                        android:textColor="#121111"
+                        android:textSize="28dp"
+                        android:textStyle="italic|bold" />
+
+                    <TextView
+                        android:id="@+id/id4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="\nAI and ML Developer"
+                        android:textColor="#121111"
+                        android:textSize="22dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/service4"
+                        android:layout_width="213dp"
+                        android:layout_height="89dp"
+                        android:layout_marginLeft="15dp"
+                        android:text="Email:siddharth271101@gmail.com\n\Phone:+91 8925469354"
+                        android:textColor="#121111"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
